@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Awesome!</title>
+
+    <style>
+        .inner-1,
+        .inner-2,
+        .inner-3, 
+        .inner-4,
+        .inner-5,
+        .inner-6,
+        .inner-7,
+        .inner-8,
+        .inner-9 {
+            padding: 30px;
+            border: 1px solid red;
+            margin: 30px;
+            /* position: static; */
+            /* background-color: red; */
+        }
+    
+        .inner-1 {
+            position: static;        /* default position */
+            top: 0;
+            left: 0;
+        }
+    
+        .inner-2 {
+            position: fixed;        /* fixed to (50, 50) measured from top of screen (absolute) */
+            top: 50px;
+            left: 50px;
+        }
+
+        .inner-3 {
+            position: relative;     /* relative to its 'static' position, so jsut shits to right by 100 */
+            top: 0;
+            left: 100px;
+        }
+
+        .inner-4 {
+            position: absolute;     /* relative to the screen, shifted to (100, 100) */
+            top: 100px;
+            left: 100px;
+        }
+    
+        .outer {
+            /* padding: 30px; */
+            border: 1px solid blue;
+            /* margin: 30px; */
+            /* background-color: blue; */
+            /* position: absolute; */
+            /* top: 0px; */
+            /* left: 0px; */
+            /* top: 50px; */
+        }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+
+        <div class="inner-1">
+            <h3>1</h3>
+        </div>
+
+        <div class="inner-2">
+            <h3>2</h3>
+        </div>
+
+        <div class="inner-3">
+            <h3>3</h3>
+        </div>
+
+        <div class="inner-4">
+            <h3>4</h3>
+        </div>
+
+        <div class="inner-5">
+            <h3>5</h3>
+        </div>
+
+        <div class="inner-6">
+            <h3>6</h3>
+        </div>
+
+        <div class="inner-7">
+            <h3>7</h3>
+        </div>
+
+        <div class="inner-8">
+            <h3>8</h3>
+        </div>
+
+        <div class="inner-9">
+            <h3>9</h3>
+        </div>
+
+    </div>
+</body>
+</html>
