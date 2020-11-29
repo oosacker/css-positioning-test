@@ -1,0 +1,53 @@
+.inner {
+    padding: 30px;
+    border: 1px solid yellow;
+    background-color: crimson;
+    opacity: 50%;
+    margin: 30px;
+    width: 100%;
+}
+
+.inner-1 {
+    position: static;   /* default position */
+    top: 0;
+    left: 0;
+}
+
+.inner-2 {
+    position: fixed;    /* fixed to (50, 50) measured from top of screen (absolute) */
+    top: 550px;
+    left: 50px;
+}
+
+.inner-3 {
+    position: relative; /* relative to its 'static' position, so just shits to right by 100 */
+    top: 0;
+    left: 100px;
+}
+
+.inner-4 {
+    position: absolute; /* relative to the parent, shifted to (100, 100) */
+    top: 100px;
+    left: 100px;
+}
+
+.inner-5 {
+    position: sticky;
+    top: 0;
+}
+
+.outer {
+    border: 1px solid blue;
+    background-color: aliceblue;
+    height: 1200px;
+    
+    /* top: 100px;
+    position: absolute; */
+
+    max-width: 80%;
+}
+
+.text {
+    display: block;
+    text-align: center;
+}
