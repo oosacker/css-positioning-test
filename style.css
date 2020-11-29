@@ -1,10 +1,10 @@
 .inner {
     padding: 30px;
-    border: 1px solid yellow;
+    border: 3px solid yellow;
     background-color: crimson;
     opacity: 50%;
     margin: 30px;
-    width: 100%;
+    width: 50%;
 }
 
 .inner-1 {
@@ -37,7 +37,7 @@
 }
 
 .outer {
-    border: 1px solid blue;
+    border: 3px solid blue;
     background-color: aliceblue;
     height: 1200px;
     
